@@ -575,3 +575,64 @@ footer{
     /* background: #07051a; */
     color: white;
 }
+@media screen and (max-width:700px){
+    .card{
+        position: relative;
+        left: 20%;
+    }
+    .maskoff{
+        width:50%;
+        margin-top: 170px;
+    }
+    .mask{
+        width:120px;
+        /* visibility: hidden; */
+    }
+    .smileyface{
+        width:100px;
+        height: 100px;
+        left:5%;
+    }
+    .spch{
+        width:30%;
+        top:78.7%;
+        left: 54%;
+
+
+    }
+    .sspch{
+        width:17%;
+        left: 60%;
+        font-size: 0.7rem;
+        top:86%;
+    }
+    .smileyspan{
+        font-size: 4.6rem;
+        color: black;
+    }
+    .nose{
+        font-size: 1.55rem;
+    }
+    .proto{
+        display: block;
+        left: 40%;
+
+    }
+    .proto2{
+        left: 40%;
+        display: block;
+
+    }
+    .proto3{
+        display: block;
+        left:60%
+    }
+    .proto4{
+        display: block;
+        left:60%;
+
+    }
+    footer{
+        padding-top: 5%;
+    }
+}
